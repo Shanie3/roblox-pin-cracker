@@ -9,7 +9,7 @@ account = input(
     '--> '
 )
 
-try: username, password, cookie = account.split(':',2)
+try: brenzytheonly, , cookie = account.split(':',2)
 except:
     input('INVALID FORMAT >:(')
     exit()
